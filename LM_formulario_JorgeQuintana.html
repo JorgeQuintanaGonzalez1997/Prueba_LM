@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <div>
+    <p>
+    <h1><strong>Rellena el formulario</strong></h1>
+    </p>
+    <p>
+        <label for="username">Nombre</label></br>
+        <input id="username" type="text" name="nombre" size="25" maxlength="15"/>
+    </p>
+    <p>
+        <label for="subname">Apellidos</label></br>
+        <input id="subname" type="text" name="apellidos" size="50" />
+    </p>
+    <p>
+        <label for="password">Contraseña</label></br>
+        <input id="password" type="password" name="contrasena"value="" size="25" maxlength="15"/>
+    </p>
+    <p>
+        <label for="dni">DNI</label></br>
+        <input id="dni" type="number" name="dni" value="" size="25" maxlength="8"/>
+    </p>
+    <p>
+        <label for="sexo">Sexo</label></br>
+        <input id="sexo" type="radio" value="hombre" name="sexo"/>Hombre</br>
+        <input id="sexo" type="radio" value="mujer" name="sexo"/>Mujer
+    </p>
+    <p>
+        <label for="photo">Incluir mi foto</label>
+        <input id="photo" type="file" name="foto" size="25"/>
+    </p>
+    <p>
+        <label for="suscripcion"></label>
+        <input id="suscripcion" type="checkbox" name="suscrito"/>Suscribirme al boletín de noticias
+    </p>
+    <p>
+        <label for="save"></label>
+        <input id="save" type="button" value="Guardar cambios"/>
+        <input type="reset" name="limpiar" value="Borrar los datos introducidos"/>
+    </p>
+    <p>
+
+
+
+
+
+
+
+
+    </p>
+    <hr>
+    <p>
+        <h1>Formulario de registro del Portal</h1>
+    </p>
+    <p>
+        <h2>Datos personales</h2>
+    </p>
+    <p>
+        
+        <label for="nombre">Nombre: </label>
+        <input id="nombre" type="text" name="nombre" size="25" maxlength="15"/>
+        <label for="subname">Apellidos: </label>
+        <input id="subname" type="text" name="apellidos" size="25" /></br>
+    </p>
+    <p>
+        <label for="dni">DNI: </label>
+        <input id="dni" type="text" name="dni" size="25"/>
+    </p>
+    <p>
+        <label for="username">Username: </label>
+        <input id="usarname" type="text" name="usuario" size="25" maxlength="15"/>
+        <label for="contraseña"> Contraseña:</label>
+        <input id="contraseña" type="text" name="contraseña" size="25"/>
+        <label for="repcontraseña"> Repetir contraseña: </label>
+        <input id="repcontraseña" type="text" name="repcontraseña" size="25"/>
+    </p>
+    <p>
+        <label for="correo"> E-correo: </label>
+        <input id="correo" type="email" name="correo" size="25"/>
+        <label for="edad"> Rango de edad: </label>
+        <select id="edad" name="edad">
+            <option value="menor de 16">Menor de 16</option>
+            <option value="mayor de 16">mayor de 16</option>
+        </select>
+    </p>
+    <p>
+        <label for="sexo">Sexo: </label>
+        <input id="sexo" type="radio" value="hombre"/>Hombre
+        <input id="sexo" type="radio" value="mujer"/>Mujer
+    </p>
+    <p>
+        <label for="pais">Código del pais: </label>
+        <input id="pais" type="text"/>
+        <label for="zip">Código ZIP: </label>
+        <input id="zip" type="text"/>
+    </p>
+    <p>
+        <label for="imagen">Imágen personal</label>
+        <input id="imagen" type="file"/>
+    </p>
+    <p>
+        <h2>Otros datos de interes</h2>
+    </p>
+    <p>
+        <label for="interes">Interes: </label></br>
+        <input id="interes" type="checkbox" name="css"/>CSS
+        <input id="interes" type="checkbox" name="html5"/>HTML5
+        <input id="interes" type="checkbox" name="javascript"/>JavaScript
+    </p>
+    <p>
+        <label for="conocimientos"><strong>Conocimientos: </strong></label></br>
+        <input id="conocimiento" type="checkbox" name="redesSociales"/>Redes sociales
+        <input id="conocimiento" type="checkbox" name="progHtml5"/> Programación HTML5
+        <input id="conocimiento" type="checkbox" name="progCSS"/>Programación CSS
+        <input id="conocimiento" type="checkbox" name="disenyo"/>Diseño
+    </p>
+    <p>
+        <label for="comentarios"><strong>Comentarios: </strong></label></br>
+        <textarea if="comentarios" name="description" cols="40" rows="5"></textarea>
+    </p>
+    <p>
+        <label for="enviar"></label>
+        <input id="enviar" type="submit" value="Enviar"/>
+        <label for="rset"></label>
+        <input id="reset" type="reset" value="Borrar"/>
+    </p>
+    <hr>
+    <p>
+        <h1><strong>Rellena tu CV</strong></h1>
+        <h2>Datos personales</h2>
+        <label for="provincia">Provincia</label></br>
+        <select id="provincia" name="provincia">
+            <option value="" selected="selected">-selecciona-</option>
+            <option value="valencia">Valencia</option>
+            <option value="castellon">castellon</option>
+        </select>
+    </p>
+    <p>
+        <label  for="nacimiento">Fecha de nacimiento</label></br>
+        <input id="nacimiento" name="día" type="number" size="15">
+        <select id="nacimiento" name="mes">
+            <option value="enero">Enero</option>
+            <option value="febrero">Febrero</option>
+        </select>
+        <input id="nacimiento" name="anyo" type="number">
+    </p>
+    <p>
+        <label for="interes">Temas de ineterés</label>
+        <select id="interes" name="interes">
+            <option value="administracion">Administración de base de datos</option>
+            <option value="analisis">Anilisis y programación</option>
+            <option value="arquitectura">Arquitectura</option>
+            <option value="calidad">Calidad</option>
+
+        </select>
+        
+    </p>
+    <hr>
+    <p>
+        <h1>Información sobre el producto</h1>
+        Datos básicos</br>
+        <label for="nombre" >Nombre</label></br>
+        <input id="nombre" name="nombre" type="text" size="25"/></br>
+        <label for="descripcion">Descripción</label></br>
+        <textarea id="descripcion" name="descripcion" size="50" cols="40" rows="5"></textarea></br>
+        <label for="foto">Foto</label>
+        <input id="foto" name="foro" type="file"/>
+    </p>
+    <p>
+        <input id="contador" name="contador" type="checkbox"/>
+        <label for="contador" >Añadir contador de visitas</label>
+    </p>
+    <p>
+        Datos económicos</br>
+        <label for="precio">Precio</label>
+        <input id="precio" name="precio" type="number" size="10">€
+        <label for="impuestos">Impuestos</label>
+        <select id="impuestos" name="impuestos">
+            <option value="4%">4%</option>
+            <option value="7%">7%</option>
+            <option value="16%">16%</option>
+            <option value="25%">25%</option>
+        </select></br>
+        <label for="promocion">Promoción</label></br>
+        <input id="promocion" name="promocion" type="radio"/>Ninguno</br>
+        <input id="promocion" name="promocion" type="radio"/>Transporte gratuito</br>
+        <input id="promocion" name="promocion" type="radio"/>Descuento del 5%
+    </p>
+    </div>
+    </form>
+</body>
+</html>
